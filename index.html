@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Capacidad de Endeudamiento</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor__header">
+            <img src="https://image.flaticon.com/icons/png/512/781/781760.png">
+            <h1>CAPACIDAD DE ENDEUDAMIENTO</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section class="contenedor__calculadora">
+            <h2>Esta calculadora tiene el fin de brindarte
+                la información de cuanto es tu capacidad de endeudamiento.
+            </h2>
+            <div class="contenedor__calculadora-inputs">
+                <label for="ingresoMensual">Escribe tu ingreso mensual: </label>
+                <input type="number" id="ingresoMensual" class="ingresoMensual">
+                <label for="gastosFijos">Escribe tu gasto mensual: </label>
+                <input type="number" id="gastosFijos">
+                <button id="calcular" type="button">Calcular</button>
+            </div>
+            <div class="contenedor__calculadora-resultado">
+                <p>Tu capacidad de endeudamiento es de:</p>
+                <label id="resultado"></label>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="contenedor__footer">
+            <p>Acerca del creador</p>
+            <ul>
+                <a href="https://github.com/gnigrinis"><img src="https://image.flaticon.com/icons/png/512/733/733609.png"></a>
+                <a href="https://www.linkedin.com/in/giancarlonigrinis/"><img src="https://image.flaticon.com/icons/png/512/174/174857.png"></a>           
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="./javascript/capacidadDeEndeudamiento.js"></script>
+</body>
+</html>

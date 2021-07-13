@@ -1,0 +1,127 @@
+:root{
+--text-color: #E8F0F2;
+--background-main: #39A2DB;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--background-main);
+}
+
+
+
+.contenedor__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    height: 7rem;
+    background-color: #053742;
+}
+.contenedor__header img{
+    width: 5rem;
+}
+.contenedor__header h1{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin: 0.9rem;
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 7rem - 8rem);
+}
+.contenedor__calculadora{
+    width: 30rem;
+    height: 28rem;
+    background-color: rgba(162, 219, 250, 0.3);
+    color: var(--text-color);
+    text-align: justify;
+}
+.contenedor__calculadora h2{
+    margin: 1rem;
+}
+.contenedor__calculadora-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.contenedor__calculadora-inputs label{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.contenedor__calculadora-inputs label,input,button{
+    margin: 0.2rem;
+}
+.contenedor__calculadora-inputs input{
+    width: 7rem;
+}
+.contenedor__calculadora-inputs button{
+    margin-top: 1rem;
+}
+.contenedor__calculadora-resultado label{
+    align-self: center;
+}
+.contenedor__calculadora-resultado{
+    display: flex;
+    flex-direction: column;
+    margin: 0.4rem;
+}
+.contenedor__calculadora-resultado p{
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-self: center;
+}
+.contenedor__calculadora-resultado label{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #053742;
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.contenedor__footer{
+    margin-top: 1rem;
+}
+.contenedor__footer p{
+    color: var(--text-color);
+    font-size: 1.4rem;
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+.contenedor__footer ul{
+    display: flex;
+    
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.contenedor__footer ul a img{
+    width: 3rem;
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+}
+.contenedor__footer ul a img:hover{
+    opacity: 0.5;
+}
